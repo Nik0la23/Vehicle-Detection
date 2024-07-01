@@ -85,7 +85,7 @@ while ret:
     cv2.line(frame1, (0, line_height), (1920, line_height), (0, 255, 0), 2)
     cv2.imshow("Vehicle Detection", frame1)
 
-    if cv2.waitKey(25) == 27:  # 100 ms delay to slow down the video
+    if cv2.waitKey(25) == 27: 
         break
 
     frame1 = frame2
